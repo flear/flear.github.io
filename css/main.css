@@ -1,0 +1,58 @@
+@import url('https://rsms.me/inter/inter-ui.css');
+
+body, html {
+    background-color: #222;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-family: "Inter UI", Helvetica, sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #f3a500;
+}
+
+.center {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.padded-content {
+    padding: 15vh 30vh;
+}
+
+.questions .description {
+    font-size: 12px;
+}
+
+.questions li {
+    margin: 10px 0;
+}
+
+.questions .download {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.questions .download a {
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+    .padded-content {
+        padding: 5vh 10vh;
+    }
+}
