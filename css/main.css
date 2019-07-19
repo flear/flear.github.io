@@ -1,13 +1,15 @@
-@import url('https://rsms.me/inter/inter-ui.css');
+@import url('https://sf.abarba.me/font.css');
 
 body, html {
     background-color: #222;
     width: 100vw;
     height: 100vh;
     margin: 0;
-    font-family: "Inter UI", Helvetica, sans-serif;
-    font-size: 16px;
+    font-family: "SF Text";
+    font-size: 18px;
+    font-weight: 200;
     color: #fff;
+    line-height: 24px;
 }
 
 a {
@@ -18,6 +20,12 @@ a {
 
 a:hover {
     color: #f3a500;
+}
+
+.links-social  a{
+  font-weight: 100;
+  font-size: 24px;
+  margin: 0px 10px;
 }
 
 .center {
