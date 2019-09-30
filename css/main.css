@@ -9,24 +9,19 @@ body, html {
     font-size: 18px;
     font-weight: 200;
     color: #fff;
-    line-height: 24px;
+    line-height: 31px;
     cursor: none;
 }
 
 a {
     text-decoration: none;
-    color: inherit;
-    font-weight: 600;
+    color: #222;
+    background: #f3a500;
+    padding: 5px 20px;
 }
 
 a:hover {
     color: #f3a500;
-}
-
-.links-social  a{
-  font-weight: 100;
-  font-size: 24px;
-  margin: 0px 10px;
 }
 
 .center {
