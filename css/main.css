@@ -62,6 +62,7 @@ a:hover {
   z-index: 11000;
   background: #f3a500;
 }
+
 .cursor--canvas {
   width: 100vw;
   height: 100vh;
