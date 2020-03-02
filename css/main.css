@@ -10,7 +10,7 @@ body, html {
     font-weight: 100;
     color: #fff;
     line-height: 42px;
-    /* cursor: none; */
+    cursor: none;
 }
 
 a {
@@ -39,6 +39,7 @@ a:hover {
 }
 
 .about {
+  margin-top: 50px;
   text-align: left;
   font-size: 18px;
   font-weight: 800;
@@ -50,7 +51,7 @@ a:hover {
   margin-top: -10px !important;
 }
 
-/* .cursor {
+.cursor {
   position: fixed;
   left: 0;
   top: 0;
@@ -70,7 +71,7 @@ a:hover {
   width: 100vw;
   height: 100vh;
   z-index: 12000;
-} */
+}
 
 
 
