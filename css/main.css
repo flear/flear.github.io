@@ -35,7 +35,7 @@ a:hover {
 }
 
 @media (max-width: 991px) {
-    .padded-content { padding: 5vh 10vh; }
+    .padded-content { padding: 1vh 2vh; }
     body, html { font-size: 18px }
 }
 
