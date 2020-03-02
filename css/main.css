@@ -34,16 +34,9 @@ a:hover {
     padding: 15vh 30vh;
 }
 
-#cv {
-  position: fixed;
-  bottom: 10px;
-  right: 100px;
-}
-
-@media (max-width: 600px) {
-    .padded-content {
-        padding: 5vh 10vh;
-    }
+@media (max-width: 991px) {
+    .padded-content { padding: 5vh 10vh; }
+    body, html { font-size: 18px }
 }
 
 .page, .page a {
@@ -88,7 +81,6 @@ a:hover {
   position: fixed;
   width: auto;
   height: auto;
-
   -webkit-animation-name: rotate;
      -moz-animation-name: rotate;
       -ms-animation-name: rotate;
