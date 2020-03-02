@@ -1,27 +1,25 @@
-@import url('https://sf.abarba.me/font.css');
+@import url('https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css');
 
 body, html {
     background-color: #222;
     width: 100vw;
     height: 100vh;
     margin: 0;
-    font-family: "SF Text";
-    font-size: 18px;
-    font-weight: 200;
+    font-family: "GothamPro";
+    font-size: 24px;
+    font-weight: 100;
     color: #fff;
-    line-height: 31px;
+    line-height: 42px;
     cursor: none;
 }
 
 a {
     text-decoration: none;
-    color: #222;
-    background: #f3a500;
-    padding: 5px 20px;
+    color: #f3a500;
 }
 
 a:hover {
-    color: #f3a500;
+    color: #fff;
 }
 
 .center {
@@ -36,6 +34,11 @@ a:hover {
     padding: 15vh 30vh;
 }
 
+#cv {
+  position: fixed;
+  bottom: 10px;
+  right: 100px;
+}
 
 @media (max-width: 600px) {
     .padded-content {
@@ -46,6 +49,7 @@ a:hover {
 .page, .page a {
  cursor: none !important;
 }
+
 
 .cursor {
   position: fixed;
@@ -67,4 +71,64 @@ a:hover {
   width: 100vw;
   height: 100vh;
   z-index: 12000;
+}
+
+
+#circle { position: relative; overflow: hidden; }
+
+#circle text {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+#circle svg {
+  bottom: 0px;
+  right: 0px;
+  position: fixed;
+  width: auto;
+  height: auto;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 5s;
+     -moz-animation-duration: 5s;
+      -ms-animation-duration: 5s;
+       -o-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
 }
