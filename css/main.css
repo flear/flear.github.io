@@ -10,7 +10,7 @@ body, html {
     font-weight: 100;
     color: #fff;
     line-height: 42px;
-    cursor: none;
+    /* cursor: none; */
 }
 
 a {
@@ -31,20 +31,26 @@ a:hover {
 }
 
 .padded-content {
-    padding: 15vh 30vh;
-}
-
-@media (max-width: 991px) {
-    .padded-content { padding: 1vh 2vh; }
-    body, html { font-size: 18px }
+    padding: 1vh 25vw;
 }
 
 .page, .page a {
  cursor: none !important;
 }
 
+.about {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 800;
+}
 
-.cursor {
+.about span {
+  font-size: 10px;
+  font-weight: 100;
+  margin-top: -10px !important;
+}
+
+/* .cursor {
   position: fixed;
   left: 0;
   top: 0;
@@ -64,23 +70,29 @@ a:hover {
   width: 100vw;
   height: 100vh;
   z-index: 12000;
+} */
+
+
+
+
+@media (max-width: 991px) {
+    .padded-content { padding: 1vh 2vw; }
+    body, html { font-size: 18px }
+    .about {
+      text-align: center;
+      font-size: 14px;
+    }
+
 }
 
 
-#circle { position: relative; overflow: hidden; }
 
-#circle text {
-  font-size: 13px;
-  text-transform: uppercase;
-  font-weight: 200;
-}
+#circle text { font-family: 'Helvetica Neue', Arial; font-size: 16px; font-weight: bold; }
 
 #circle svg {
-  bottom: 0px;
-  right: 0px;
-  position: fixed;
+
   width: auto;
-  height: auto;
+
   -webkit-animation-name: rotate;
      -moz-animation-name: rotate;
       -ms-animation-name: rotate;

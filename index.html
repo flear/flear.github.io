@@ -21,28 +21,34 @@
   <title>Josu&eacute Ruiz -  Front-End Developer</title>
 </head>
 <body>
-  <div class="cursor cursor--small"></div>
-  <canvas class="cursor cursor--canvas" resize></canvas>
+  <!-- <div class="cursor cursor--small"></div>
+  <canvas class="cursor cursor--canvas" resize></canvas> -->
   <div class="center">
     <section class="padded-content">
+      <p class="about"><span>01.</span> ABOUT</p>
       <img class="animated pulse delay-1s" src="img/fotag.png" alt="">
       <p>Sonoran Front-End Developer with expertise in UI/UX Design and Graphic Design with 8+ years experience helping companies build things that make sense. Currently designing beautiful experiences at <a href="http://www.zegnio.com" target="_blank">Zegnio</a>.</br>Interested in working together? Get in touch at <a href="mailto:rzbrnl@gmail.com" target="_blank">rzbrnl@gmail.com</a></p>
+      <section id="circle">
+        <a href="/cv-josueruiz-esp.pdf" target="_blank">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
+              <defs>
+                  <path id="circlePath" d=" M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "/>
+              </defs>
+              <circle cx="150" cy="100" r="75" fill="none"/>
+              <g>
+                  <use xlink:href="#circlePath" fill="none"/>
+                  <text fill="#f3a500">
+                      <textPath xlink:href="#circlePath">Download my resume&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;Download my resume&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;</textPath>
+                  </text>
+              </g>
+          </svg>
+        </a>
+      </section>
     </section>
   </div>
-  <div id="circle"><a href="/cv-josueruiz-esp.pdf" target="_blank">
-    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="220px" height="220px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
-        <defs>
-            <path id="circlePath" d=" M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "/>
-        </defs>
-        <circle cx="150" cy="100" r="75" fill="none"/>
-        <g>
-            <use xlink:href="#circlePath" fill="none"/>
-            <text fill="#f3a500">
-                <textPath xlink:href="#circlePath">Download my resume&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;Download my resume&nbsp;·&nbsp;&nbsp;&nbsp;</textPath>
-            </text>
-        </g>
-    </svg></a>
-  </div>
+
+
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.0/paper-core.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
   <script src="js/cursor.js"></script>
