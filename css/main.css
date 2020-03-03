@@ -32,9 +32,9 @@ a:hover { color: #fff; }
   font-weight: 800;
 }
 .about span {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 100;
-  margin-top: -10px !important;
+  color: #f3a500;
 }
 .links { font-size: 12px }
 .cursor {
