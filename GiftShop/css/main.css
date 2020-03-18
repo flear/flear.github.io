@@ -1,6 +1,7 @@
 @import url('https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css');
 
 body { font-family: "GothamPro"; }
+
 .btn.focus, .btn:focus {
   outline: 0 !important;
   box-shadow: 0 0 0 0rem rgba(0,0,0,0) !important;
@@ -137,6 +138,9 @@ nav ul li a, nav ul li a:visited {
   background: #171F56;
   color: #ECEFFF;
   text-decoration: none !important;
+}
+nav ul li a, nav ul li a:hover {
+    color: #ECEFFF !important;
 }
 
 nav ul li a:not(:only-child):after, nav ul li a:visited:not(:only-child):after {
