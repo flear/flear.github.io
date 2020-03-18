@@ -1,14 +1,15 @@
 @import url('https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css');
 body, html {
   background-color: #222;
-  width: 100vw;
-  height: 100vh;
+  width: 90vw;
+  height: 90vh;
   margin: 0;
   font-family: "GothamPro";
   font-size: 24px;
   font-weight: 100;
   color: #fff;
   line-height: 42px;
+  margin: 0px auto;
   cursor: none;
 }
 ::selection {
@@ -30,6 +31,7 @@ a:hover { color: #fff; }
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin: 50px 10px;
 }
 .padded-content { padding: 5vh 25vw; }
 .page, .page a { cursor: none !important; }
@@ -45,6 +47,10 @@ a:hover { color: #fff; }
   color: #f3a500;
 }
 .links { font-size: 12px }
+.links-contact { font-size: 24px }
+.copy { font-size: 12px }
+.company { color: #f3a500; }
+.company span { color: #fff; }
 .cursor {
   position: fixed;
   left: 0;

@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/d271f1d226.js" crossorigin="anonymous"></script>
+
+    <title>GiftShop</title>
+  </head>
+  <body>
+    <section class="navigation">
+      <div class="nav-container">
+        <div class="brand">
+          <a href="#">Gift<span>Shop</span></a>
+        </div>
+        <nav>
+          <div class="nav-mobile"><a id="nav-toggle" href="#"><span></span></a></div>
+          <ul class="nav-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+            <li>
+              <a href="#"><img class="avatar" src="img/avatar.jpg" alt="avatar"></a>
+              <ul class="nav-dropdown"><li><a href="#">Sign out</a></li></ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="row align-items-center text-center vh-100-c">
+        <div class="col-sm">
+          <div class="row">
+            <p class="txt-titulo">Fly Boy Bart <span>$12.00</span></p>
+          </div>
+          <div class="row">
+            <p class="txt-descri">Do you love The Simpsons? Do you love the annual Treehouse of Horror Halloween episodes? Bring the horror home with Pop!</p>
+          </div>
+          <div class="row">
+            <a class="buy" href="#">Buy</a>
+          </div>
+        </div>
+        <div class="col-sm">
+          <img class="img-hero" src="img/bart.png" alt="Fly Boy Bart">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col">
+          <p class="txt-titulo">Shop</p>
+        </div>
+        <div class="col-md-3">
+          <div id="search" class="search " >
+            <form>
+                <input class="search-input " onkeyup="buttonUp();" placeholder="Search product..." onblur="monkey();" type="search" value="" name="search" id="search">
+                <input class="search-submit" type="submit"  value="">
+                <span class="icon-search"><i class="fa fa-search"></i></span>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-auto">
+          |
+        </div>
+        <div class="col-md-auto">
+          Sort
+        </div>
+        <div class="col-md-auto">
+          <div class="dropdown">
+            <a class="btn drop-new dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">12</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">12</a>
+              <a class="dropdown-item" href="#">8</a>
+              <a class="dropdown-item" href="#">6</a>
+              <a class="dropdown-item" href="#">2</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-auto">
+          <div class="dropdown">
+            <a class="btn drop-new dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All categories</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">All categories</a>
+              <a class="dropdown-item" href="#">The Simpsons</a>
+              <a class="dropdown-item" href="#">Marvel</a>
+              <a class="dropdown-item" href="#">Disney</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="container-fluid margin-shop">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="card card_red text-center">
+                <div class="title">
+                  <img class="img-shop" src="img/homer.png" alt="King Homer">
+                  <h2>King Homer</h2>
+                </div>
+                <div class="price">
+                  <h4><sup>$</sup>6.00</h4>
+                </div>
+                <a href="#">Order Now</a>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card card_violet text-center">
+                <div class="title">
+                  <img class="img-shop" src="img/marge.png" alt="King Homer">
+                  <h2>Panther Marge</h2>
+                </div>
+                <div class="price">
+                  <h4><sup>$</sup>7.99</h4>
+                </div>
+                <a href="#">Order Now</a>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card card_three text-center">
+                <div class="title">
+                  <img class="img-shop" src="img/lisa.png" alt="King Homer">
+                  <h2>Demon Lisa</h2>
+                </div>
+                <div class="price">
+                  <h4><sup>$</sup>9.00</h4>
+                </div>
+                <a href="#">Order Now</a>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card card_three text-center">
+                <div class="title">
+                  <img class="img-shop" src="img/maggie.png" alt="King Homer">
+                  <h2>Alien Maggie</h2>
+                </div>
+                <div class="price">
+                  <h4><sup>$</sup>8.00</h4>
+                </div>
+                <a href="#">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid margin-shop">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="card card_red text-center">
+                <div class="title">
+                  <img class="img-shop" src="img/natasha.png" alt="Natasha Romanoff">
+                  <h2>Natasha Romanoff</h2>
+                </div>
+                <div class="price">
+                  <h4><sup>$</sup>11.00</h4>
+                </div>
+                <a href="#">Order Now</a>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card card_violet text-center">
+                <div class="title">
+                  <img class="img-shop" src="img/stanlee.png" alt="Stan Lee">
+                  <h2>Stan Lee</h2>
+                </div>
+                <div class="price">
+                  <h4><sup>$</sup>15.00</h4>
+                </div>
+                <a href="#">Order Now</a>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card card_three text-center">
+                <div class="title">
+                  <img class="img-shop" src="img/widow.png" alt="Black Widow">
+                  <h2>Black Widow</h2>
+                </div>
+                <div class="price">
+                  <h4><sup>$</sup>11.00</h4>
+                </div>
+                <a href="#">Order Now</a>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card card_three text-center">
+                <div class="title">
+                  <img class="img-shop" src="img/yelena.png" alt="Yelena Belova">
+                  <h2>Yelena Belova</h2>
+                </div>
+                <div class="price">
+                  <h4><sup>$</sup>8.00</h4>
+                </div>
+                <a href="#">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid margin-shop">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="card card_red text-center">
+                <div class="title">
+                  <img class="img-shop" src="img/bopeep.png" alt="Bo Peep">
+                  <h2>Bo Peep</h2>
+                </div>
+                <div class="price">
+                  <h4><sup>$</sup>15.00</h4>
+                </div>
+                <a href="#">Order Now</a>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card card_violet text-center">
+                <div class="title">
+                  <img class="img-shop" src="img/jasmine.png" alt="Princess Jasmine">
+                  <h2>Princess Jasmine</h2>
+                </div>
+                <div class="price">
+                  <h4><sup>$</sup>15.00</h4>
+                </div>
+                <a href="#">Order Now</a>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card card_three text-center">
+                <div class="title">
+                  <img class="img-shop" src="img/anna.png" alt="Anna">
+                  <h2>Anna</h2>
+                </div>
+                <div class="price">
+                  <h4><sup>$</sup>11.00</h4>
+                </div>
+                <a href="#">Order Now</a>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card card_three text-center">
+                <div class="title">
+                  <img class="img-shop" src="img/willie.png" alt="Evil Willie">
+                  <h2>Evil Willie</h2>
+                </div>
+                <div class="price">
+                  <h4><sup>$</sup>20.00</h4>
+                </div>
+                <a href="#">Order Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="pagination pagi justify-content-end margin-shop">
+            <ul>
+              <a href="#"><li><i class="fas fa-chevron-left"></i></li></a>
+              <a class="is-active" href="#"><li>1</li></a>
+              <a href="#"><li>2</li></a>
+              <a href="#"><li>3</li></a>
+              <a href="#"><li>4</li></a>
+              <a href="#"><li>5</li></a>
+              <a href="#"><li><i class="fas fa-chevron-right"></i></li></a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <span>GiftShop &copy; All rights Reserved.</span>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
