@@ -139,9 +139,7 @@ nav ul li a, nav ul li a:visited {
   color: #ECEFFF;
   text-decoration: none !important;
 }
-nav ul li a, nav ul li a:hover {
-    color: #ECEFFF !important;
-}
+nav ul li a, nav ul li a:hover { color: #ECEFFF !important; }
 
 nav ul li a:not(:only-child):after, nav ul li a:visited:not(:only-child):after {
   padding-left: 4px;
@@ -154,6 +152,11 @@ nav ul li ul li a {
   padding: 15px;
   line-height: 20px;
 }
+
+nav ul li a:not(:only-child)::after, nav ul li a:visited:not(:only-child)::after {
+    display: none !important;
+}
+
 
 .nav-dropdown {
   position: absolute;
