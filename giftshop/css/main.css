@@ -424,6 +424,11 @@ footer {
   background: #171F56;
 }
 
+footer a {
+  color: #ECEFFF;
+  text-decoration: none !important;
+}
+footer a:hover { color: #ECEFFF; }
 
 
 @media only screen and (max-width: 798px)
